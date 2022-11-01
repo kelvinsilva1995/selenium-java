@@ -8,6 +8,9 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -18,10 +21,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 )
 public class RunCucumberTest {
     public static WebDriver driver ;
+    public static  WebDriverWait wait ;
 
     @BeforeClass
     public static void stat(){
         driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(02));
         System.out.println("Iniciou os Testes");
     }
 

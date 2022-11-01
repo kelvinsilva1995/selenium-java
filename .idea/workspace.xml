@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="ADD Hooks: BeforeClass e AfterClass">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/Descontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Descontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666279346658</updated>
     </task>
+    <task id="LOCAL-00001" summary="ADD Hooks: BeforeClass e AfterClass">
+      <created>1667315301201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315301201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD Hooks: BeforeClass e AfterClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Hooks: BeforeClass e AfterClass" />
   </component>
 </project>
