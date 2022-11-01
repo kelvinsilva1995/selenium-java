@@ -6,8 +6,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import support.Utils;
 
-public class HomePage{
+public class HomePage extends Utils {
     WebDriver driver;
     WebDriverWait wait;
     public HomePage(WebDriver driver, WebDriverWait wait) {
@@ -17,7 +18,8 @@ public class HomePage{
 
     public void acessarAplicacao(){
         driver.get("https://www.qazando.com.br/");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#liteboxFormat3Circle")));
+        esperarElementoEstarPresente(By.cssSelector("div#liteboxFormat3Circle"), 10);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#liteboxFormat3Circle")));;
         Assert.assertEquals("Não acessou a aplicação",true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
 
