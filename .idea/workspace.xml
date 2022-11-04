@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="Sleep e Esperar até elemento ficar visível">
+    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="Adicionando relatórios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/desconto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667330002638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando relatórios">
+      <created>1667580652514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667580652514</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +138,7 @@
     <MESSAGE value="ADD Hooks: BeforeClass e AfterClass" />
     <MESSAGE value="Adicionando page objects" />
     <MESSAGE value="Sleep e Esperar até elemento ficar visível" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sleep e Esperar até elemento ficar visível" />
+    <MESSAGE value="Adicionando relatórios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando relatórios" />
   </component>
 </project>
