@@ -18,8 +18,8 @@ public class HomePage extends Utils {
 
     public void acessarAplicacao(){
         driver.get("https://www.qazando.com.br/");
-        esperarElementoEstarPresente(By.cssSelector("div#liteboxFormat3Circle"), 10);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#liteboxFormat3Circle")));;
+//        esperarElementoEstarPresente(By.cssSelector("div#liteboxFormat3Circle"), 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div#liteboxFormat3Circle")));;
         Assert.assertEquals("Não acessou a aplicação",true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
 

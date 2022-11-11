@@ -14,9 +14,9 @@ import java.time.Duration;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/"},
+        plugin = {"json:target/reports/cucumberReport.json", "html:target/cucumber/report.html"},
         features = "src/test/resources/features",
-        tags = "@desconto",
+        tags = "@cadastro-sucesso",
         glue = {"steps"}
 )
 public class RunCucumberTest {
@@ -24,7 +24,7 @@ public class RunCucumberTest {
     public static  WebDriverWait wait ;
 
     @BeforeClass
-    public static void stat(){
+    public static void start(){
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(02));
         System.out.println("Iniciou os Testes");

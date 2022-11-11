@@ -7,9 +7,9 @@ import runner.RunCucumberTest;
 
 
 public class Utils extends RunCucumberTest {
-    public void esperarElementoEstarPresente(By element, int tempo){
-        WebDriverWait wait = new WebDriverWait(driver, tempo);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
-    }
+//    public void esperarElementoEstarPresente(By element, int tempo){
+//        WebDriverWait wait = new WebDriverWait(driver, tempo);
+//        wait.until(ExpectedConditions.elementToBeClickable(element));
+//    }
 
 }
