@@ -8,11 +8,10 @@ import io.cucumber.java.pt.Quando;
 import pages.HomePage;
 import runner.RunCucumberTest;
 
-import java.time.Duration;
 
 public class Descontos extends RunCucumberTest {
 
-   HomePage homePage = new HomePage(driver,wait);
+   HomePage homePage = new HomePage();
 
     @Dado("^que estou no site do qazando$")
     public void que_estou_no_site_do_qazando() {
