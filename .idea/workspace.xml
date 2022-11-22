@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="Executando somente um senário com tag">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/cadastro-usuario.feature" afterDir="false" />
+    <list default="true" id="dab3227f-c614-4c4a-b63d-40a1e9cbc419" name="Changes" comment="Escrevendo o BDD de cadastro de usuário">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CadastroPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Cadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Descontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Descontos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/support/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GP9RkXOD4mOioc9mqkjbQ50roO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +48,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/ProjetosPessoais/portifolio/selenium-java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667580966455</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Escrevendo o BDD de cadastro de usuário">
+      <created>1668187708521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668187708521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +160,24 @@
     <MESSAGE value="Sleep e Esperar até elemento ficar visível" />
     <MESSAGE value="Adicionando relatórios" />
     <MESSAGE value="Executando somente um senário com tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Executando somente um senário com tag" />
+    <MESSAGE value="Escrevendo o BDD de cadastro de usuário" />
+    <option name="LAST_COMMIT_MESSAGE" value="Escrevendo o BDD de cadastro de usuário" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/CadastroPage.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.openqa.selenium.By$ByCssSelector" memberName="params" />
+        <PinnedItemInfo parentTag="org.openqa.selenium.By$ByCssSelector" memberName="cssSelector" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

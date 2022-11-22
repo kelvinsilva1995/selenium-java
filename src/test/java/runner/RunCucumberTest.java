@@ -26,7 +26,7 @@ public class RunCucumberTest {
     @BeforeClass
     public static void start(){
         driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(02));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(05));
         System.out.println("Iniciou os Testes");
     }
 
